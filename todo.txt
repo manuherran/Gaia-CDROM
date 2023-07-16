@@ -1,0 +1,35 @@
+\doc\			documentación
+\doc\gaia\		Textos de la página gaia
+\doc\gaia\robots\	cs-el.zip, cs-eo.zip, servo.zip
+\doc\gaia\web\		http://www.aircenter.net/gaia  Página gaia
+\doc\gaia\webzip\	Página gaia en zip
+\doc\otros\		otros sitios en internet
+\doc\otros\buso\	http://www.uv.es/~buso 
+\doc\otros\cell\	http://www.cs.cinvestav.mx/mcintosh/cellular.html
+\doc\otros\encore\	http://research.de.uu.net:8080/encore ftp://zeus.etsimo.uniovi.es/pub/EC/Welcome.html
+\doc\otros\gaioni\	http://www.cs.unibo.it/~gaioni Raffaele Gaioni. The GA Technical Reports Home Page" and "The GA Pratictioners Home Page". La más completa selección de documentos (disponibles) sobre evolutionary computation y la más completa lista de email y home page de las personas que se encuentran investigando en ello. 
+\doc\otros\hh\		http://www.etsimo.uniovi.es/ftp/pub/EC/FAQ/www/top.htm Guía del Autoestopista de la Computación Evolutiva ("The Hitch-Hiker's Guide to Evolutionary Computation") Heitkötter, Jörg and Beasley, David, eds. FAQ de comp.ai.genetic con definiciones y clasificaciónes de los términos más comunes en Computación Evolutiva
+\doc\otros\ma_upv\	http://www.geocities.com/CapeCanaveral/9802/ Matemáticas Aplicadas Vida Artificial (Blanca Cases gzamora@comunet.es) y Algoritmos Genéticos (Pedro Larrañaga CCPLAMUP@SI.EHU.ES) Universidad del País Vasco (UPV-EHU). Ofrecen en el web unos artículos muy interesantes. No hay que perderselo.
+\doc\otros\perez\	ftp://ftp.de.uu.net/pub/research/softcomp/EC/EA/papers/intro-spanish.ps.gz Pérez Serrada, Anselmo. Una introducción a la Computación Evolutiva. Marzo, 1996. Es una obra muy completa, que sirve además como introducción al tema. Muy recomendable para quien se disponga a programar algoritmos evolutivos. Necesita un visor de postcript *.ps que tienes en \util\gsview\
+\doc\otros\petru\	http://usuarios.leader.es/~relew/
+\doc\otros\ray\		http://www.hip.atr.co.jp/~ray/pubs/spanish/spanish.html Ray, Thomas S. "Jugué a ser Dios y creé la vida en mi computadora". Emocionante relato que describe una de las primeras simulaciones de vida por ordenador.
+\doc\otros\robot\	http://www.eupmt.es/cra
+\doc\otros\santafe\	ftp://alife.santafe.edu/pub/topics/cas/txt/
+\doc\otros\swarm\	http://www.santafe.edu/projects/swarm/ Swarm: multi-agent simulation of complex systems. Plataforma de desarrollo de Vida Artificial, Computación Evolutiva y todo tipo de Sistemas Complejos, para UNIX GNU y Xwindows
+\doc\otros\terminus\	http://loki.databasedm.es/perezvigo/alife.htm Terminus Zone Interesantes reflexiones sobre la Vida Artificial, de Fernando Pérez-Vigo fpvigo@ibm.net
+\prog\			programas (para MS-DOS, Windows 3.x 95 y NT)
+\prog\gaia\		programas de gaia
+\prog\gaia\celulas\	Farid Fleifel Tapia. Células. Ejecutable y ficheros fuente en Turbo-Pascal 6.0
+\prog\gaia\conway\	Ricardo Aranguren. Juego de la Vida de Conway. Ejecutable y ficheros fuente en Turbo-Pascal 6.0
+\prog\gaia\diana\	Diana, Petru Ghita Sherar y Félix Pérez Pavón
+\prog\gaia\ejvida\	Ejemplos de Vida, Manu Herrán Gascón. Hormigas y Plantas: Estudio de la cooperación y la evolución de distintas especies de "hormigas". Palabras y Frases: Un algoritmo genético (no canónico) que busca una frase introducida por el usuario. Tres en Raya: Una Estrategia Evolutiva en la que se enfrenta el mecanismo de la evolución a la resolución del juego del tres en raya mediante reglas. El dilema del prisionero: permite estudiar el egoísmo, la cooperación y el altruismo como estrategias de supervivencia.
+\prog\otros\		programas de otros sitios en internet
+\prog\otros\ccp\	Carlos Costa Portela, Algoritmos genéticos: Encaminamiento, El dilema del prisionero. http://ccp.servidores.net/aagg/
+\prog\otros\prata\	Stephen Prata, varios.
+\prog\otros\tierra\	Tierra, Thomas Ray
+\util\			utilidades
+\util\comp\		compresores: winzip, arj, pkzip-pkunzip, rar
+\util\gsview\		para ver archivos postcript *.ps
+\util\navega\		navegadores
+\util\navega\iexplore\	explorer
+\util\navega\netscape\	netscape
