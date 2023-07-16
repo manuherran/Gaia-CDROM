@@ -1,0 +1,39 @@
+DIANA:La entrada corresponde a la salida:
+DIANA:PETRU ES UNA PERSONA UN POCO RARA
+DIANA:La entrada corresponde a la salida:
+DIANA:FELIX HA SIDO QUIEN ME HA PROGRAMADO
+DIANA:Hola, me alegro de verte
+HUMANO:eres un cabron
+DIANA:No creo que est‚s hablando en serio
+HUMANO:gilipollas
+DIANA:Me niego a hablar contigo si utilizas ese vocabulario
+HUMANO:bonito
+DIANA:Me da la impresion de que no quieres hablar de esto
+HUMANO:si quiero desirte que eres muy inteligente
+DIANA:¨Por qu‚ dices que soy muy inteligente?
+HUMANO:por saber tu tantas cosas
+DIANA:Preferiria no hablar de mi
+HUMANO:¨de quieres hablar?
+DIANA:No se trata de lo que yo quiera, sino de lo que tu quieras
+HUMANO:yo quiero saber los numeros de la loteria que van a salir esta noche
+DIANA:Supongo que todos deseamos algo
+HUMANO:ghfgjfg hgjfhj 
+DIANA:¨No prefieres hablar de otra cosa?
+HUMANO:ftdcyhyoh¤oj
+DIANA:¨No prefieres hablar de otra cosa?
+HUMANO:sdtrfku
+DIANA:¨Y bien?
+HUMANO:el perro es ewewww
+DIANA:Pues que bien
+HUMANO:jfuergnk
+DIANA:¨No prefieres hablar de otra cosa?
+HUMANO:no
+DIANA:¨Cual es el motivo?
+HUMANO:que me abutrres
+DIANA:No se que decir
+HUMANO:aburres
+DIANA:¨Por que no hablamos de otra cosa?
+HUMANO:tienesuna idea fija o que
+DIANA:¨Que diferencia hay?
+HUMANO:salir
+DIANA:Ha sido divertido hablar contigo, hasta pronto

@@ -1,0 +1,200 @@
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ Diana 3.20 (Dominio P£blico) - FREEWARE - Por favor, no modificar
+ ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²   
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ 
+ Este fichero es una actualizaci¢n de la ayuda de la versi¢n 3.20 del progra
+ ma de procesamiento del lenguaje natural DIANA.
+
+
+ ² ¨Qu‚ es Diana? ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²
+
+ Diana 3.2 consiste en un programa de gesti¢n de ficheros orientados a proce
+ sar  el lenguaje del usuario y elaborar as¡ respuestas que pudieran parecer
+ nos inteligentes.  
+ 
+ ² ¨C¢mo se utiliza Diana? ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²
+
+ Diana  dispone  de un diccionario de respuestas programables por el usuario 
+ mediante la ventana de configuraci¢n, que permite a¤adir, eliminar y listar
+ saludos,  despedidas  y evasivas, que son frases utilizadas cuando no se en
+ cuentran entradas £tiles en el diccionario y que son de dos tipos: evasivas
+ a interrogativas: son aquellas que se utilizan cuando el usuario ha hecho u
+ na  pregunta  y  evasivas  a enunciativas, que son aquellas que se utilizan
+ cuando la respuesta del usuario no ha sido interrogativa.
+
+ En esta ventana es posible adem s activar y desactivar un fichero de salida
+ de texto 'OUT.TXT', en el cual se podr  encontrar una copia de la conversa-
+ ci¢n, o bien seleccionar a impresora.
+
+ A  su vez, la ventana Diccionario nos permite a¤adir nuevas entradas al dic
+ cionario  y  sus  correspondientes salidas, que son de car cter general (no
+ tan  espec¡fico  como las que se programan mediante la ventana de configura
+ ci¢n). En la opci¢n  a¤adir entrada es posible pulsar enter para que la ora
+ ci¢n  no sea asignada a ninguna entrada directa (esto tiene aplicaci¢n para
+ asignar las oraciones a las entradas definidas).
+
+ Esta ventana presenta grandes novedades respecto a la versi¢n 3.11 posibili
+ tando la depuraci¢n del diccionario (liberando el espacio de las entradas e
+ liminadas) y el definir estructuras en ‚stas.
+ Esto £ltimo resulta de gran utilidad al poder  establecer  condiciones para
+ determinar las salidas de Diana.
+ Diana 3.20  puede adem s elegir aleatoriamente entre varias respuestas si a
+ una  determinada  entrada se le ligan oraciones. Esto tambi‚n puede hacerse
+ para entradas definidas. Seleccione en esta ventana la opci¢n ligar e indi-
+ que primeramente el registro de la entrada que va a tener varias respuestas
+ y a continuaci¢n el registro de la que va a ser ligada.
+
+
+ Por ejemplo:
+
+ Queremos  que 'CASA', situada en el REG 200 tenga tres respuestas posibles,
+ siendo los registros a ligar los siguientes:
+ 
+ REG PRINCIPAL 200 REG A LIGAR 201
+ REG PRINCIPAL 200 REG A LIGAR 202
+
+ Tras haber utilizado la opci¢n LIGAR, listando el diccionario obtendremos:
+
+ CASA         Las casas son construcciones generalmente de piedra  REG 200
+ Ligada a 200 A mi me gustan las casas grandes                     REG 201
+ Ligada a 200 ¨C¢mo es tu casa?                                    REG 202 
+
+ Si Diana encuentra la entrada 'casa', elegir  aleatoriamente entre las tres
+ respuestas.
+
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ Practicamente  todo  el  vocabulario  interno del programa se ha extraido e
+ introducido como entradas definidas.
+ Estas deber n tener la siguiente sintaxis:
+
+
+ (OPCIONES) PALABRA= PALABRA+1 PALABRA+2 PALABRA+... RESPUESTA:
+
+
+ Las opciones posibles son en esta versi¢n tres:
+
+ (PREGUNTA) - Para que se produzca salida,la oraci¢n tecleada por el usuario
+ deber  poseer interrogaciones.
+
+ (RESPUESTA) - Para que se produzca  salida, la  oraci¢n del usuario debe no
+ ser interrogativa.
+
+ (UNAPALABRA) - Para  que  se  produzca  salida, la oraci¢n del usuario debe
+ constar de una £nica palabra.
+
+ PALABRA=.. Debe contener la palabra a analizar, siendo posible el continuar
+ revisando posteriores palabras.
+
+ Un ejemplo podr¡a ser:
+
+ (PREGUNTA) PALABRA=COMO PALABRA+1 TE PALABRA+2 LLAMAS RESPUESTA:122
+
+ Si el usuario realiza una pregunta, en  la  cual  encontremos  la secuencia
+ 'COMO TE LLAMAS',Diana contestar  inmediatamente con la respuesta contenida
+ en el registro 122.
+
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ La  ventana  de fichero nos permite unir dos diccionarios y las operaciones
+ b sicas de fichero con ‚stos.
+ La ventana Ejecutar pone en marcha a Diana, utilizando el diccionario del u
+ suario  y  el  interno incluido en Diana (opci¢n voc. interno) o £nicamente
+ con el diccionario del usuario (opci¢n voc. externo).
+
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ Nota: el vocabulario interno incluido con el programa es de prop¢sito gene
+ ral  y  permite realizar transformaciones en las frases de manera que es a
+ consejable utilizarlo porque enriquece notablemente la conversaci¢n.
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ Para terminar la conversaci¢n basta con escribir 'SALIR'
+
+ 
+ ² ¨C¢mo se confecciona un diccionario? ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²
+
+ El esquema b sico para confeccionar un diccionario efectivo es primeramente
+ realizar  una  lista  de saludos y a¤adirla. El programa, al inicio de cada
+ conversaci¢n  elegir   uno  al azar. Tambi‚n es necesario confeccionar otra
+ lista  de  despedidas, que ser  gestionada por Diana de igual manera que la
+ de saludos. Hasta aqu¡ la realizaci¢n del diccionario resulta sumamente sen
+ cilla, ya  que  ambas listas son inmediatas, pero las evasivas a interrogan
+ tes  y  enunciativas  merecen una atenci¢n muy especial, ya que muchas de e
+ llas  pueden no funcionar en contextos muy concretos, por lo cual resultar 
+ de  utilidad  probarlas varias veces y a ser posible con la ayuda de distin
+ tas  personas (debemos tener en cuenta la edad a la que ir  dirigido el dic
+ cionario  ya  que si utilizamos evasivas dirigidas a personas adultas ‚stas
+ podr¡an no funcionar en personas de menor edad).
+ Una  vez  realizadas estas listas se deber  elegir el tema en el que estar 
+ especializado el diccionario y a¤adirle as¡ las correspondientes entradas y
+ salidas.
+
+ ² Limitaciones del programa ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²
+ 
+ Diana 3.2 puede gestionar hasta un m ximo de 4.000 entradas por diccionario
+ con un m ximo de 500 saludos, 500 despedidas, 500 evasivas de clase 1 y 500
+ evasivas de clase 2.
+ 
+ ² ¨Por qu‚ utilizar Diana? ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²
+
+ Diana es un programa de procesamiento del lenguaje natural, que, a diferen
+ cia  de muchos otros, es enteramente programable por el usuario, de manera
+ que no son necesarios conocimientos de programaci¢n para confeccionar nues
+ tros propios "programas" o diccionarios y experimentar asi los fundamentos
+ de esta disciplina de la Inteligencia Artificial.
+
+ 
+ ² ¨Qu‚ equipo se necesita para ejecutar Diana 3.2? ²²²²²²²²²²²²²²²²²²²²²²²² 
+ 
+ Diana 3.2 requiere un 386 SX con 4 megas de RAM y 2 megas libres de memoria
+ expandida.
+ 
+ ² ¨C¢mo se hizo el programa? ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²
+
+ Diana 3.2 fu‚ programada en un PENTIUM 166 con 16 Mb de RAM, utilizando la
+ versi¢n 7.0 de Turbo Pascal y a partir de versiones anteriores de este y o
+ tros programas realizados con anterioridad por los autores.
+
+ ² Soluci¢n de problemas ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²
+
+ El programa ha sido probado en diferentes equipos y no se han encontrado fa
+ llos  en  ‚l. Si  no funciona y da el error "Imposible crear tablas en memo
+ ria EMS" significa que es posible que no tengas configurada memoria expandi
+ da o bien que no hay libre la suficiente.
+ 
+ Comprueba que en el CONFIG.SYS existe la llamada:
+ 
+ DEVICE=C:\DOS\EMM386.EXE (si  es  que no est s utilizando otro gestor de ex
+ pandida diferente).
+
+ Para  cualquier tipo de consulta, puedes contactar con los autores en las di
+ recciones que constan al final del fichero, asi como para reportar cualquier
+ fallo en el programa.
+ 
+
+ ² C¢mo contactar con los autores ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²
+
+ Diana 3.20 fu‚ programado por F‚lix P ez Pav¢n con la colaboraci¢n de Petru
+ Ghita Sherar. Cualquier comentario, sugerencia, etc. es siempre bienvenida.
+
+ Para ponerte en contacto con nosotros puedes escribir a:
+ 
+ F‚lix P ez Pav¢n
+
+ C/Lima 52, 8§C C.P. 28940 FUENLABRADA (Madrid)
+
+ Tel‚fono (91)  697 10 77
+ Tel‚fono M¢vil 909 42 74 99
+
+ o durante las vacaciones en:
+
+ C/Jos‚ Posada Herrera 9, 4§D  C.P. 39300 TORRELAVEGA (Cantabria)
+
+ Petru Ghita Sherar
+ C/Isla de la Toja 2, 2§C Izda. C.P. 28400 COLLADO VILLALBA (Madrid)
+ Tel‚fono (91) 851 07 31. 
+ 
+ o por e-mail: Relew@Leader.es
+
+ 
