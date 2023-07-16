@@ -1,0 +1,4 @@
+\prog\gaia\celulas\	Farid Fleifel Tapia. Células. Ejecutable y ficheros fuente en Turbo-Pascal 6.0
+\prog\gaia\conway\	Ricardo Aranguren. Juego de la Vida de Conway. Ejecutable y ficheros fuente en Turbo-Pascal 6.0
+\prog\gaia\diana\	Diana, Petru Ghita Sherar y Félix Pérez Pavón
+\prog\gaia\ejvida\	Ejemplos de Vida, Manu Herrán Gascón. Hormigas y Plantas: Estudio de la cooperación y la evolución de distintas especies de "hormigas". Palabras y Frases: Un algoritmo genético (no canónico) que busca una frase introducida por el usuario. Tres en Raya: Una Estrategia Evolutiva en la que se enfrenta el mecanismo de la evolución a la resolución del juego del tres en raya mediante reglas. El dilema del prisionero: permite estudiar el egoísmo, la cooperación y el altruismo como estrategias de supervivencia.
